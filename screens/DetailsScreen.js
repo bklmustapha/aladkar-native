@@ -16,7 +16,7 @@ export default function DetailsScreen({ navgiation, route }) {
     <View style={tw`bg-black`}>
       <Text style={tw`text-black text-xl font-semibold`}>title: {title}</Text>
       <View style={tw`px-3`}>
-        <ScrollView scrollEnabled={true} nestedScrollEnabled={true} style={tw`h-[400px]`}>
+        <ScrollView scrollEnabled={true} nestedScrollEnabled={true} style={tw`h-[1000px]`}>
           {_array_adkar.map((item, index) => (
             <DikrCard
               key={item.count}
